@@ -1,0 +1,32 @@
+email_login: <YOUR EMAIL LOGIN>
+email_password: <YOUR EMAIL PASSWORD>
+
+# List of possible codes:
+# - "USD"
+# - "AUD"
+# - "BRL"
+# - "CAD"
+# - "CHF"
+# - "CLP"
+# - "CNY"
+# - "DKK"
+# - "EUR"
+# - "GBP"
+# - "HKD"
+# - "INR"
+# - "ISK"
+# - "JPY"
+# - "KRW"
+# - "NZD"
+# - "PLN"
+# - "RUB"
+# - "SEK"
+# - "SGD"
+# - "THB"
+# - "TRY"
+# - "TWD"
+
+currency_code: BRL
+warn_threshold_above: 330000
+warn_threshold_below: 290000
+sleep_time_seconds: 1

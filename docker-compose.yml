@@ -1,0 +1,19 @@
+version: '2.3'
+
+services:
+  btc-watcher:
+    container_name: btc-watcher
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: btc-watcher
+    restart: always
+    volumes:
+      - ./config.yml:/app/config.yml
+    environment:
+      LOG_LEVEL: 'INFO'
+    logging:
+      driver: json-file
+      options: 
+        max-size: '10m'
+        max-file: '2'
